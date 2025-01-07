@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   project: default
-  sources:
+  source:
     helm: {}
     repoURL: 'https://@github.com:leomatosouza/descomplicando-gitops-no-kubernetes-argocd.git'
     targetRevision: feat/day2
